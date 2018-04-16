@@ -3,21 +3,27 @@
 <head>
     <meta charset="utf-8">
     
-    <title>标签：: test1 | Wind Continues to Blow</title>
+    <title>mongodb命令整理 | 风继续吹的个人博客</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Wind Continues to Blow">
-<meta property="og:url" content="http://yoursite.com/tags/test1/index.html">
-<meta property="og:site_name" content="Wind Continues to Blow">
+        <meta name="keywords" content="mongodb" />
+    
+    <meta name="keywords" content="mongodb">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mongodb命令整理">
+<meta property="og:url" content="http://yoursite.com/2018/04/16/mongodb命令整理/index.html">
+<meta property="og:site_name" content="风继续吹的个人博客">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2018/04/16/mongodb命令整理/mongo.png">
+<meta property="og:updated_time" content="2018-04-16T03:24:50.349Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Wind Continues to Blow">
+<meta name="twitter:title" content="mongodb命令整理">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/16/mongodb命令整理/mongo.png">
     
 
     
-        <link rel="alternate" href="/" title="Wind Continues to Blow" type="application/atom+xml" />
+        <link rel="alternate" href="/" title="风继续吹的个人博客" type="application/atom+xml" />
     
 
     
@@ -63,7 +69,7 @@
                                     <a class="main-nav-list-link" href="/">主页</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Hexo教程/">Hexo教程</a></li></ul>
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/数据库/">数据库</a></li></ul>
                                     
                         </ul>
                         <nav id="sub-nav">
@@ -118,81 +124,131 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>标签：: <em>test1</em>
+    <a class="page-title-link" href="/categories/数据库/">数据库</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-mongodb命令整理" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/04/15/category/" class="thumbnail">
-    
-    
-        <span style="background-image:url(images/test.png)" alt="category" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2018/04/15/category/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Hexo教程/">Hexo教程</a>
-            </div>
-            <div class="date"><time datetime="2018-04-15T08:05:14.000Z" itemprop="datePublished">2018-04-15</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2018/04/15/category/">category</a>
+        mongodb命令整理
         </h1>
     
 
-        <p class="article-excerpt">
-            aa
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/04/16/mongodb命令整理/" class="article-date">
+            <time datetime="2018-04-16T02:13:46.000Z" itemprop="datePublished">2018-04-16</time>
+        </a>
+    </div>
 
-        </p>
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/mongodb/">mongodb</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <img src="/2018/04/16/mongodb命令整理/mongo.png" title="mongo">
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2018/04/16/mongodb命令整理/" data-id="cjg1oh7co0000s4eo1w2dgifr" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
                     </section>
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
-    <div class="sidebar-top">
+    <!-- 注释掉了关注我模块 -->
+    <!-- <div class="sidebar-top">
         <p>关注我 :</p>
         <ul class="social-links">
             
@@ -245,7 +301,9 @@
                 
             
         </ul>
-    </div>
+    </div> -->
+    
+        
     
     <div class="widgets-container">
         
@@ -262,30 +320,10 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2018/04/16/hello-world/" class="thumbnail">
+                            <a href="/2018/04/16/mongodb命令整理/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/04/16/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2018-04-16T00:32:04.690Z" itemprop="datePublished">2018-04-16</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018/04/15/category/" class="thumbnail">
-    
-    
-        <span style="background-image:url(images/test.png)" alt="category" class="thumbnail-image"></span>
+        <span style="background-image:url(/2018/04/16/mongodb命令整理/mongo.png)" alt="mongodb命令整理" class="thumbnail-image"></span>
     
     
 </a>
@@ -293,29 +331,9 @@
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Hexo教程/">Hexo教程</a></p>
-                            <p class="item-title"><a href="/2018/04/15/category/" class="title">category</a></p>
-                            <p class="item-date"><time datetime="2018-04-15T08:05:14.000Z" itemprop="datePublished">2018-04-15</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018/04/14/study/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/04/14/study/" class="title">study</a></p>
-                            <p class="item-date"><time datetime="2018-04-14T10:56:15.000Z" itemprop="datePublished">2018-04-14</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/数据库/">数据库</a></p>
+                            <p class="item-title"><a href="/2018/04/16/mongodb命令整理/" class="title">mongodb命令整理</a></p>
+                            <p class="item-date"><time datetime="2018-04-16T02:13:46.000Z" itemprop="datePublished">2018-04-16</time></p>
                         </div>
                     </li>
                 
@@ -328,7 +346,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">分类</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo教程/">Hexo教程</a><span class="category-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a><span class="category-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -338,7 +356,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">四月 2018</a><span class="archive-list-count">3</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">四月 2018</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -348,7 +366,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">标签</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/test1/">test1</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/test2/">test2</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/mongodb/">mongodb</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -358,7 +376,7 @@
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="/tags/test1/" style="font-size: 10px;">test1</a> <a href="/tags/test2/" style="font-size: 10px;">test2</a>
+            <a href="/tags/mongodb/" style="font-size: 10px;">mongodb</a>
         </div>
     </div>
 
@@ -406,11 +424,13 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/2018/04/16/mongodb命令整理/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
