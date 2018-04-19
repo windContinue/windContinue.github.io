@@ -1,3 +1,5 @@
+/*$content-desktop = 1000px
+$content-desktop-large = 1200px*/
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -445,11 +447,11 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 1000px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 .main {
@@ -457,11 +459,11 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 1000px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 .footer {
@@ -474,11 +476,11 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 1000px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 pre,
@@ -1940,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1b37;
+  background: #3dd22e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2930,74 +2932,11 @@ hr {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.8);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.8);
 }
 @media (max-width: 767px) {
   .hiddend-xs {
     display: none;
   }
-}
-.header {
-  background: #39f;
-}
-.brand {
-  color: #fff;
-}
-.logo-line-before i,
-.logo-line-after i {
-  background-color: #fff;
-}
-.menu .menu-item a {
-  color: #fff;
-}
-.menu .menu-item a:hover,
-.menu-item-active a {
-  background: #fff;
-  color: #39f !important;
-}
-.posts-expand .post-title-link,
-.posts-expand .post-title,
-.page-archive .archive-page-counter {
-  color: #39f;
-}
-.posts-expand .post-title-link::before {
-  background: #39f;
-}
-.footer {
-  background: #3091f2;
-  color: #fff;
-}
-.with-love,
-.theme-link,
-.theme-info {
-  color: #fff;
-}
-.post-button a {
-  color: #39f;
-  border-bottom: none;
-}
-.site-nav-toggle .btn-bar {
-  background: #fff;
-}
-.pace .pace-progress {
-  background: #f90; /*进度条颜色*/
-  height: 3px;
-}
-.pace .pace-progress-inner {
-  box-shadow: 0 0 10px #f90, 0 0 5px #f90; /*阴影颜色*/
-}
-.pace .pace-activity {
-  border-top-color: #f90; /*上边框颜色*/
-  border-left-color: #f90; /*左边框颜色*/
-}
-.brand:hover {
-  color: #fff;
-}
-.sidebar {
-  box-shadow: inset 0 2px 6px #464c5b;
-  background: #464c5b;
-}
-.site-author-image {
-  border: none;
 }
